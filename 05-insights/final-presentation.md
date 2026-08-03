@@ -6,21 +6,20 @@
 
 ## What it contains
 
-Six slides, one per deliverable:
+Five slides, one per deliverable:
 
 1. **Product Strategy**: Playing to Win cascade + OKRs (`01-strategy/`)
 2. **Outcome Roadmap**: multi-team roadmap + trade-off memo (`02-roadmap/`)
-3. **Prototyped Solution**: AI-prototyped solution (`03-prototype/`)
-4. **Alignment Plan**: stakeholder map + executive narrative (`04-alignment/`)
-5. **Financial Model**: business case + kill criteria (`05-financials/`)
-6. **Individual Insights**: friction, learnings, aha (`06-insights/individual-insights.md`)
+3. **Team Charter**: What We Own + How We Decide (`03-team-charter/`)
+4. **Financial Model**: business case + kill criteria (`04-financial-model/`)
+5. **Individual Insights**: friction, learnings, aha (`05-insights/individual-insights.md`)
 
 ## How to build it
 
 1. Open the **Final Project Deliverables Template** (in your LMS / brief) and click **Use Template**.
 2. Fill each slide from the matching deliverable file in this repo.
 3. _Optional:_ paste your deliverable files into **Gamma**, **Canva**, **Claude**, or **ChatGPT** for a polished deck.
-4. Submit your own copy to the LMS within **7 days** of your cohort ending.
+4. Commit the deck to your repo and submit your **repo URL** to the LMS within **7 days** of your cohort ending.
 
 ## Grading (for reference)
 

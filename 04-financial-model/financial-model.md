@@ -26,4 +26,4 @@ _The specific signals that would tell you this bet is no longer worth pursuing. 
 
 ## Link to full artifact
 
-_[link to Slide 5 of your deliverables deck]_
+_[link to this deliverable in your repo]_
