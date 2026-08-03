@@ -28,4 +28,4 @@ _What did you sequence first, what did you push out, and what did you cut entire
 
 ## Link to full artifact
 
-_[link to Slide 2 of your deliverables deck]_
+_[link to this deliverable in your repo]_
