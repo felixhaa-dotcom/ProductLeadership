@@ -12,13 +12,12 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 |---|---|---|---|---|
 | 1 | **Product Strategy One-Pager & OKRs** | M1 | ☐ | `01-strategy/strategy-and-okrs.md` |
 | 2 | **Outcome Roadmap & Trade-off Memo** | M2 | ☐ | `02-roadmap/outcome-roadmap.md` |
-| 3 | **AI-Prototyped Product Solution** | · | ☐ | `03-prototype/prototype.md` |
-| 4 | **Alignment Plan** (stakeholder map + exec narrative) | M4 | ☐ | `04-alignment/alignment-plan.md` |
-| 5 | **Financial Model** (business case + kill criteria) | M5 | ☐ | `05-financials/financial-model.md` |
-| 6 | **Individual Insights** (reflection) | M6 | ☐ | `06-insights/individual-insights.md` |
-| ★ | **Final Project Presentation** (the deck you submit) | M6 | ☐ | `06-insights/final-presentation.md` |
+| 3 | **Team Charter** (What We Own + How We Decide) | M3 | ☐ | `03-team-charter/team-charter.md` |
+| 4 | **Financial Model** (business case + kill criteria) | M5 | ☐ | `04-financial-model/financial-model.md` |
+| 5 | **Individual Insights** (reflection) | M6 | ☐ | `05-insights/individual-insights.md` |
+| ★ | **Final Project Presentation** (generated in M6, committed to your repo) | M6 | ☐ | `05-insights/final-presentation.md` |
 
-> Module 3 (*Lead and Develop High-Performing Teams*) sharpens **how** you lead execution rather than producing a separate deck slide, bring those habits into every artifact above.
+> Module 4 (*Drive Alignment & Executive Influence*) sharpens **how** you land these deliverables with executives rather than producing a separate submitted artifact.
 
 ## The strategy in one sentence
 
@@ -28,8 +27,8 @@ ___
 
 ## How to submit
 
-- Turn the deliverable files into your final deck (Google Slides or PDF). The quickest path: use the **Final Project Deliverables Template**, or paste your files into an AI tool like **Gamma** or **Canva** (see `06-insights/final-presentation.md`).
-- Submit your own copy to the LMS within **7 days** of your cohort ending.
+- In Module 6, generate your final deck (Google Slides or PDF) from the deliverable files and commit it to your repo. The quickest path: use the **Final Project Deliverables Template**, or paste your files into an AI tool like **Gamma** or **Canva** (see `05-insights/final-presentation.md`).
+- Submit **both** your **repo URL** and your **presentation** (a published link, or the file uploaded to the learning platform) within **7 days** of your cohort ending.
 
 ## Repo structure
 
@@ -40,13 +39,11 @@ product-leadership-final/
 │   └── strategy-and-okrs.md               ← M1: Playing to Win + hard no + OKRs   ★ Deliverable 1
 ├── 02-roadmap/
 │   └── outcome-roadmap.md                 ← M2: outcome roadmap + trade-off memo   ★ Deliverable 2
-├── 03-prototype/
-│   └── prototype.md                       ← AI-prototyped product solution         ★ Deliverable 3
-├── 04-alignment/
-│   └── alignment-plan.md                  ← M4: stakeholder map + exec narrative    ★ Deliverable 4
-├── 05-financials/
-│   └── financial-model.md                 ← M5: business case + kill criteria       ★ Deliverable 5
-└── 06-insights/
-    ├── individual-insights.md             ← M6: friction, learnings, aha
-    └── final-presentation.md              ← M6: how to build & submit the deck      ★ Final submission
+├── 03-team-charter/
+│   └── team-charter.md                    ← M3: What We Own + How We Decide         ★ Deliverable 3
+├── 04-financial-model/
+│   └── financial-model.md                 ← M5: business case + kill criteria       ★ Deliverable 4
+└── 05-insights/
+    ├── individual-insights.md             ← M6: friction, learnings, aha           ★ Deliverable 5
+    └── final-presentation.md              ← M6: how to build the deck (committed to repo)  ★ Final submission
 ```
