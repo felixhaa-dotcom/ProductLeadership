@@ -1,29 +1,21 @@
-# Financial Model: [Fable / Meridian / your initiative]
+# Build the Business Case and the Kill Line, Module 5 Lab
 
-> Module 5 · Master Product Financials & Strategic Bets, ★ Deliverable 5
->
-> The business case for funding your bet, and the explicit kill criteria that would tell you to stop.
+## Make your evaluation and funding decision
+- **What assumption is doing the most work? If this number is 20-30% off, what changes?:** The load-bearing assumption is that the AI estimation feature increases Standard-to-Enterprise upsell from 6% to 8%. If the 2-point uplift is 20–30% lower, conversion reaches only about 7.4–7.6%, and the incremental ARR falls to roughly $157k–$179k — at or below the $180k build cost before churn and other costs.
+- **What is the structural problem in this case? Look past the headline numbers for something that does not hold up on closer inspection.:** The load-bearing assumption is that the AI estimation feature increases Standard-to-Enterprise upsell from 6% to 8%. If the 2-point uplift is 20–30% lower, conversion reaches only about 7.4–7.6%, and the incremental ARR falls to roughly $157k–$179k — at or below the $180k build cost before churn and other costs.
+- **Is the kill criterion complete and actionable? Does it name the consequence, or hand the decision back to the room?:** It is structurally complete because it names a metric, threshold, deadline, and consequence: 7% upsell by end of Q3, then pause the feature and reallocate Q4 capacity. However, the 7% threshold is economically too weak: at 7%, the feature generates only four incremental upsells, or $112k in incremental ARR, which does not cover the $180k build cost.
+- **Your verdict: FUND / FUND WITH ONE CONDITION / DO NOT FUND. If a condition, name it; otherwise explain in one sentence.:** FUND WITH ONE CONDITION: require the feature to demonstrate at least an 8% Standard-to-Enterprise upsell rate within two quarters. Below 8%, the incremental economics do not justify continued investment, and the feature should be stopped with capacity reallocated.
 
-## 1. Business case
+## Write your business case
+- **The strategic bet. What specific outcome are you backing, who does it serve, and what is the mechanism that connects the product decision to a financial result?:** We are backing an offline-first field experience for superintendents and foremen on $50M+ projects. The mechanism is straightforward: if Meridian works reliably at the point of work, more field activity moves from camera rolls and group chats into Meridian, increasing frontline adoption and making the platform more valuable and harder to replace at renewal and expansion.
+- **The assumptions. List the assumptions your case rests on, then rank them: which one, if wrong, most changes your conclusion?:** 1. Load-bearing assumption: higher field adoption materially improves account retention or expansion because Meridian becomes embedded in both frontline and administrative workflows.
+2. Offline reliability is a meaningful blocker to current field adoption, rather than usability alone.
+3. The pilot can lift weekly active field usage to at least 60% on participating projects within two quarters.
+4. The required build and support cost stays within the approved initiative budget.
 
-_Why this initiative is worth funding over the alternatives. Include the key unit economics assumptions, CAC, LTV, payback period, where relevant._
+If assumption #1 is wrong, the business case fails even if product adoption improves, because usage would not translate into a financial outcome.
+- **The expected return. What does the bet generate and when? Express it at unit level (per customer) and at scale (what volume hits target).:** At unit level, the bet succeeds financially when the incremental retention or expansion value of an account that adopts the field workflow exceeds the cost of enabling and supporting that account. At scale, the initiative must demonstrate that field-adopting accounts retain or expand at a meaningfully higher rate than comparable non-adopting accounts. The first financial signal should be visible within two renewal cycles; exact dollar return will be calculated using Meridian’s actual ARR and renewal data before board approval.
+- **The kill criterion. Name the specific metric, threshold, timeline, and financial consequence that tells the team to stop. Actionable, not a conversation.:** If weekly active field adoption remains below 40% after two quarters, stop the offline-first expansion, do not fund the standalone foreman app, and reallocate remaining Foundations capacity to the core platform.
 
-| Assumption | Value | Source / rationale |
-|---|---|---|
-| CAC | _____ | _____ |
-| LTV | _____ | _____ |
-| Payback period | _____ | _____ |
-| Investment required | _____ | _____ |
-| Expected return | _____ | _____ |
-
-> **The case in one paragraph:** _____
-
-## 2. Kill criteria
-
-_The specific signals that would tell you this bet is no longer worth pursuing. Be explicit about the metric, the threshold, and the timeline._
-
-> If **[metric]** does not reach **[threshold]** by **[date]**, we will **[decision]**.
-
-## Link to full artifact
-
-_[link to this deliverable in your repo]_
+## Stress-test and finalize
+- **Paste your finalized business case here.:** Fund the offline-first field experience as the foundational bet behind Meridian Foundations. The investment is designed to move field documentation from camera rolls and group chats into Meridian by making the platform reliable at the point of work, which should increase frontline adoption and strengthen account retention and expansion. The case rests most heavily on the assumption that higher field adoption translates into greater account value; offline reliability and the 60% weekly-active target are supporting assumptions. Because the scenario does not provide Meridian contract economics, the dollar return should be calculated with actual ARR and renewal data before board approval rather than estimated here. The kill line is explicit: if weekly active field adoption remains below 40% after two quarters, stop further offline-first expansion, do not fund the standalone foreman app, and reallocate the remaining Foundations capacity to the core platform.
